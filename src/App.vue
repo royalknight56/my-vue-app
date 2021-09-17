@@ -1,8 +1,8 @@
 <!--
  * @Author: zhangweiyuan-Royal
- * @LastEditTime: 2021-09-09 10:54:59
+ * @LastEditTime: 2021-09-17 20:04:24
  * @Description: 
- * @FilePath: /publishTest/src/App.vue
+ * @FilePath: /my-vue-app/src/App.vue
 -->
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
@@ -49,6 +49,9 @@ import app_console from "./components/apps/app_console.vue"
 import app_vscode from "./components/apps/app_vscode.vue"
 import Adm_loading from "./components/apps/Adm_loading.vue"
 import GitStars from "./components/apps/GitStars.vue"
+
+import Powerby from "./components/apps/Powerby.vue"
+
 import GotoAdminVue from './components/apps/GotoAdmin.vue';
 import GotoReadMe from './components/apps/GotoReadMe.vue';
 
@@ -119,6 +122,14 @@ AddToDesktop({
   width: 170,
   height: 100,
   tmp: GotoReadMe
+});
+
+AddToDesktop({
+  name: 'Powered by CloudBase Webify',
+  icon: GitHub,
+  width: 170,
+  height: 100,
+  tmp: Powerby
 });
 
 
